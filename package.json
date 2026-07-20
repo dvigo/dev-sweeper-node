@@ -1,6 +1,6 @@
 {
   "name": "dev-sweeper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "dist/cli.js",
   "scripts": {
@@ -16,8 +16,16 @@
     "README.md"
   ],
   "keywords": [],
-  "author": "",
+  "author": "dvigo",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvigo/dev-sweeper-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dvigo/dev-sweeper-node/issues"
+  },
+  "homepage": "https://github.com/dvigo/dev-sweeper-node#readme",
   "type": "module",
   "dependencies": {
     "chalk": "^5.6.2",
