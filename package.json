@@ -1,0 +1,37 @@
+{
+  "name": "dev-sweeper",
+  "version": "1.0.2",
+  "description": "",
+  "main": "dist/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx src/cli.ts",
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist",
+    "assets",
+    "README.md"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "fdir": "^6.5.0",
+    "ink": "^7.1.1",
+    "react": "^19.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "@types/react": "^19.2.17",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2"
+  },
+  "bin": {
+    "dev-sweeper": "dist/cli.js"
+  }
+}
