@@ -7,6 +7,7 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/dev-sweeper"><img src="https://img.shields.io/npm/v/dev-sweeper.svg?style=flat-square" alt="NPM Version" /></a>
   <a href="https://www.npmjs.com/package/dev-sweeper"><img src="https://img.shields.io/npm/dt/dev-sweeper.svg?style=flat-square" alt="NPM Downloads" /></a>
+  <a href="https://github.com/dvigo/dev-sweeper-node/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/dvigo/dev-sweeper-node/ci.yml?style=flat-square&label=build" alt="Build Status" /></a>
   <img src="https://img.shields.io/npm/l/dev-sweeper.svg?style=flat-square" alt="License" />
 </p>
 
